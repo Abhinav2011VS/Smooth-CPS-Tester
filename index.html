@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CPS Tester - ${name_of_tester}</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <h1>CPS Tester - <span id="testerName">CPS Master</span></h1>
+      <div class="instructions">Click inside the box to start the test!</div>
+      
+      <div class="time-options">
+        <button class="time-btn" data-time="1">1s</button>
+        <button class="time-btn" data-time="2">2s</button>
+        <button class="time-btn" data-time="3">3s</button>
+        <button class="time-btn" data-time="5">5s</button>
+        <button class="time-btn" data-time="10">10s</button>
+        <button class="time-btn" data-time="15">15s</button>
+        <button class="time-btn" data-time="30">30s</button>
+        <button class="time-btn" data-time="60">60s</button>
+        <button class="time-btn" data-time="90">90s</button>
+        <button class="time-btn" data-time="100">100s</button>
+        <button class="time-btn" data-time="300">300s</button>
+        <button class="time-btn" data-time="900">900s</button>
+      </div>
+    </div>
+
+    <div class="right-column">
+      <div id="clickArea" class="click-area">
+        <div id="clickCount">0</div>
+        <div id="cpsDisplay">CPS: 0.0</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
